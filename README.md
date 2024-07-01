@@ -1,55 +1,55 @@
 # ETH-AVAX_PROOF_Module2
 Module 2 Smart Contract Management Project: Function Frontend
 
-# Interact with Your Smart Contract through Front-end Practice Code
+## Interact with Your Smart Contract through Front-end Practice Code
 
-## Description
-The files `index.js`, `Assessment.sol`, and `deploy.js` contain codes to practice interaction with the `SmartContract_with_Front_end_interaction` smart contract through a website.
+### Description
+The files `index.js`, `Assessment.sol`, and `deploy.js` contain code to practice interacting with the `SmartContract_with_Front_end_interaction` smart contract through a website.
 
-## NOTE:
-`deploy.js` file contains the code of frontend.
+### Note
+The `deploy.js` file contains the frontend code.
 
-## Environment Setting for Executing the above files
-Follow the steps below:
+### Environment Setup for Executing the Files
+Follow these steps:
 
-1. Clone this repository or download the zip file and then extract it.
+1. Clone this repository or download and extract the zip file.
 
-2. Above repository contains all necessary files to interact with our smart contract.
+2. The repository contains all necessary files to interact with our smart contract.
 
-3. Copy `index.js` contents from this repository to the `index.js` file in the `pages` folder.
+3. Copy the contents of `index.js` from this repository to the `index.js` file in the `pages` folder.
 
-4. Copy `deploy.js` contents from this repository to the `deploy.js` file in the `scripts` folder.
+4. Copy the contents of `deploy.js` from this repository to the `deploy.js` file in the `scripts` folder.
 
-5. Install MetaMask Browser Extension.
+5. Install the MetaMask Browser Extension.
 
-## Starter Next/Hardhat Project
+### Starter Next/Hardhat Project
 
-After cloning GitHub, you will want to do the following to get the code running on your computer.
+After cloning the GitHub repository, follow these steps to get the code running on your computer:
 
-1. Inside the project directory, in the terminal type: `npm i`
+1. Inside the project directory, in the terminal, type: `npm i`
 
 2. Open two additional terminals in your VS code.
 
 3. In the second terminal, type: `npx hardhat node`
 
 4. In the third terminal, type: `npx hardhat run --network localhost scripts/deploy.js`
-   (Note: You can also verify the address of deployment in the `contractAddress` variable in `index.js` file)
+   (Note: You can also verify the address of deployment in the `contractAddress` variable in the `index.js` file)
 
 5. Back in the first terminal, type `npm run dev` to launch the frontend.
 
 After this, the project will be running on your local host, typically at `http://localhost:3000/`.
 
-## Setting up the local host network and a dummy account in your Metamask Wallet
+### Setting up the Local Host Network and a Dummy Account in Your MetaMask Wallet
 
-To interact with the smart contract locally, we need to set up a local network with the MetaMask wallet.
+To interact with the smart contract locally, set up a local network with the MetaMask wallet:
 
-1. Click on the MetaMask extension and then click on the top middle button, which is the network selection button.
+1. Click on the MetaMask extension and then click on the network selection button at the top middle.
 
 2. Click on "Add a Network."
 
 3. Click on "Add a Network Manually."
 
-4. Give the Network name (whatever you want).
+4. Give the Network a name (choose any name you like).
 
 5. Set the New RPC URL to `http://127.0.0.1:8545/`.
 
@@ -59,10 +59,8 @@ To interact with the smart contract locally, we need to set up a local network w
 
 8. Now, set the MetaMask wallet network to the newly created local network.
 
-To set up an account, you have to import an account with the account's private key, which you can find in the second terminal where we executed the command `npx hardhat node`. After hitting enter, you can see there are many account numbers with private keys written in the terminal. Just take any account's corresponding private key to import it to your Metamask Wallet.
+To set up an account, import an account with the account's private key, which you can find in the second terminal where you executed the command `npx hardhat node`. After hitting enter, you will see many account numbers with private keys listed in the terminal. Take any account's corresponding private key to import it into your MetaMask Wallet.
 
-Head to `http://localhost:3000/` to start interacting with the Metamask Wallet.
+Head to `http://localhost:3000/` to start interacting with the MetaMask Wallet.
 
 You can also see all transaction details in the deploy terminal.
-
-
